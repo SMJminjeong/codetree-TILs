@@ -4,9 +4,7 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
-        double answer = a * 30.48;
-
-        System.out.printf("%.1f", answer);
+        System.out.printf("%.1f", a * 30.48);
 
     }
 }
