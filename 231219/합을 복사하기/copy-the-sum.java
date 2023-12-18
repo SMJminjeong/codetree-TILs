@@ -5,7 +5,9 @@ public class Main {
         int b = 2;
         int c = 3;
 
-        a = b = c;
+        int sum = a + b + c;
+
+        a = b = c = sum;
 
         System.out.println(a+" "+b+" "+c);
     }
