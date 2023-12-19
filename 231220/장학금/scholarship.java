@@ -7,9 +7,9 @@ public class Main {
         finalTerm = scanner.nextInt();
 
         if(midTerm >= 90 && finalTerm >= 95){
-            System.out.println("10");
+            System.out.println("100000");
         }else if (midTerm >= 90 && finalTerm >= 90){
-            System.out.println("5");
+            System.out.println("50000");
         }else{
             System.out.println("0");
         }
