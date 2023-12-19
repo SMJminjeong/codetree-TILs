@@ -4,10 +4,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int year = scanner.nextInt();
-        if(year % 4 == 0 && ((year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0))){
-            System.out.println("true");
-        }else if(year % 4 == 0 && year % 100 == 0){
-            System.out.println("false");
+        if(year % 4 == 0){
+            if(year % 100 == 0){
+                System.out.println("false");
+            }
+            else if (year % 100 == 0 && year % 400 == 0){
+                System.out.println("true");
+            }
         }
     }
 }
