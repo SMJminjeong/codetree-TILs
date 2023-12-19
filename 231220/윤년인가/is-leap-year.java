@@ -6,7 +6,7 @@ public class Main {
         int year = scanner.nextInt();
         if(year % 4 == 0 && ((year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0))){
             System.out.println("true");
-        }else{
+        }else if(year % 4 == 0 && year % 100 == 0){
             System.out.println("false");
         }
     }
