@@ -10,12 +10,11 @@ public class Main {
 
         int min = Math.min(a,b);
         min = Math.min(min,c);
-        min = Math.min(min,b);
 
         if(a == min) System.out.print("1");
         else System.out.print("0");
 
-        if(a == b && a == c && b == c) System.out.print(" 1");
+        if(a == b && b == c) System.out.print(" 1");
         else System.out.print(" 0");
     }
 }
