@@ -6,11 +6,11 @@ public class Main {
         gender = scanner.nextInt();
         age = scanner.nextInt();
 
-        if(age > 19 && gender == 0){
+        if(age >= 19 && gender == 0){
             System.out.println("MAN");
         }else if (age <= 19 && gender == 0){
             System.out.println("BOY");
-        }else if (age > 19 && gender == 1){
+        }else if (age >= 19 && gender == 1){
             System.out.println("WOMAN");
         }else if (age <= 19 && gender == 1){
             System.out.println("GIRL");
