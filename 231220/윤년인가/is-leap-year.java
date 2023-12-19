@@ -5,13 +5,14 @@ public class Main {
 
         int year = scanner.nextInt();
         if(year % 4 == 0){
-            System.out.println("true");
-            if(year % 100 == 0){
+            if((year % 100 != 0) && (year % 400 == 0)){
+                System.out.println("true"); 
+            } else if (year % 100 == 0){
                 System.out.println("false");
             }
-            else if (year % 100 == 0 && year % 400 == 0){
-                System.out.println("true");
-            }
+        } else if(year % 4 != 0){
+                System.out.println("false");
         }
+        
     }
 }
