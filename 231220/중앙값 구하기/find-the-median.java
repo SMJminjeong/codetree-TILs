@@ -12,11 +12,13 @@ public class Main {
             if(a < c){
                 System.out.println(a);
             }
-        } else if (b > a){
+        } 
+        if (b > a){
             if(b < c){
                 System.out.println(b);
             }
-        } else if (c > a){
+        }
+        if (c > a){
             if(c < b){
                 System.out.println(c);
             }
