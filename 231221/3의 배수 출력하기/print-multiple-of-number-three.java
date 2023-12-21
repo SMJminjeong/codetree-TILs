@@ -5,10 +5,12 @@ public class Main {
         int n = scanner.nextInt();
         int i = 1;
         int answer = 0;
-        while(answer < n){
+        int target = n / 3;
+        while(i <= target){
+            
             answer = i * 3;
-            System.out.print(answer + " ");
             i++;
+            System.out.print(answer + " ");
         }
     }
 }
