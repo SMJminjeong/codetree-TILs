@@ -8,7 +8,7 @@ public class Main{
         int cnt3 = 0;
         int cnt12 = 0;
 
-        for(int i = 1; i<num; i++){
+        for(int i = 1; i<=num; i++){
             if(i % 2 == 0 && i % 6 != 0){
                 cnt2++;
             }
