@@ -6,8 +6,11 @@ public class Main {
         int a = Integer.parseInt(input[0]);
         int b = Integer.parseInt(input[1]);
 
+        int max = Math.max(a,b);
+        int min = Math.min(a,b);
+
         int answer = 0;
-        for(int i = a; i <= b; i++){
+        for(int i = min; i <= max; i++){
             if(i % 5 == 0){
                 answer += i;
             }
