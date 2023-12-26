@@ -4,8 +4,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
         int x = 1;
+        int answer = 2;
         while(true){
-            int answer = 2 * x;
+            answer *= x;
             if(answer == num){
                 System.out.print(x);
                 break;
