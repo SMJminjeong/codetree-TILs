@@ -12,6 +12,9 @@ public class Main {
                     System.out.print(count);
                     break;
                 }
+            }else if(num == 1){
+                System.out.print(count);
+                break;
             }else{
                 count++;
                 num = num*3 +1;
