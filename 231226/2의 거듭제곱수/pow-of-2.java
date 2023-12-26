@@ -6,7 +6,9 @@ public class Main {
         int x = 1;
         int answer = 2;
         while(true){
-            answer *= x;
+            if(answer < num){
+                answer *= x;
+            }
             if(answer == num){
                 System.out.print(x);
                 break;
