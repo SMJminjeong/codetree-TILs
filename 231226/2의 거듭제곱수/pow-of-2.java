@@ -3,17 +3,13 @@ public class Main {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
-        int x = 1;
+        
+        int x = 0;
         int answer = 2;
-        while(true){
-            if(answer < num){
-                answer *= x;
-            }
-            if(answer == num){
-                System.out.print(x);
-                break;
-            }
+        while (num > 1) {
+            num /= 2;
             x++;
         }
+        System.out.print(x);
     }
 }
